@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="EfficiencyCell" id="KGk-i7-Jjw" customClass="EfficiencyCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="OBR-vr-RoD">
+                        <rect key="frame" x="18" y="39.5" width="194" height="2"/>
+                    </progressView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sT-Dp-Y45">
+                        <rect key="frame" x="262" y="8" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="x1i-LB-Mb7"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="睡眠效率" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibx-aH-2Fo">
+                        <rect key="frame" x="18" y="8" width="60" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ibx-aH-2Fo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="1M2-Uc-Lhi"/>
+                    <constraint firstItem="3sT-Dp-Y45" firstAttribute="leading" secondItem="OBR-vr-RoD" secondAttribute="trailing" constant="50" id="2vh-f3-PdI"/>
+                    <constraint firstItem="ibx-aH-2Fo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="8JE-Ft-oLn"/>
+                    <constraint firstItem="ibx-aH-2Fo" firstAttribute="top" secondItem="3sT-Dp-Y45" secondAttribute="top" id="EfF-n8-QxA"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="OBR-vr-RoD" secondAttribute="bottom" constant="10" id="bPY-AT-LVf"/>
+                    <constraint firstItem="3sT-Dp-Y45" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="m9y-fM-rT6"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="3sT-Dp-Y45" secondAttribute="bottom" id="o3v-eh-FDm"/>
+                    <constraint firstItem="3sT-Dp-Y45" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="sx9-Rs-5TG"/>
+                    <constraint firstItem="OBR-vr-RoD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="u0e-0J-N0d"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="efficiencyPercentageLabel" destination="3sT-Dp-Y45" id="9dv-Dv-aXN"/>
+                <outlet property="efficiencyProgressView" destination="OBR-vr-RoD" id="Aie-o2-XM7"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

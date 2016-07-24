@@ -1,0 +1,1082 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		251337ED58BA278AD9E0B712 /* libPods-SmartSleep.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 11A25B9B3086786D4A31517E /* libPods-SmartSleep.a */; };
+		3D22F2681D3DED7400747E02 /* MyRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F2671D3DED7400747E02 /* MyRecordModel.m */; };
+		3D22F26B1D3DFD3B00747E02 /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F26A1D3DFD3B00747E02 /* Const.m */; };
+		3D22F26F1D3E03CE00747E02 /* MyRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F26D1D3E03CE00747E02 /* MyRecordTableViewCell.m */; };
+		3D22F2701D3E03CE00747E02 /* MyRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D22F26E1D3E03CE00747E02 /* MyRecordTableViewCell.xib */; };
+		3D22F2741D3E096100747E02 /* FamilyRecordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F2721D3E096100747E02 /* FamilyRecordTableViewCell.m */; };
+		3D22F2751D3E096100747E02 /* FamilyRecordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D22F2731D3E096100747E02 /* FamilyRecordTableViewCell.xib */; };
+		3D22F2781D3E098500747E02 /* FamilyRecordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F2771D3E098500747E02 /* FamilyRecordModel.m */; };
+		3D22F28B1D3E683100747E02 /* StatisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D22F28A1D3E683100747E02 /* StatisticsViewController.m */; };
+		3D354CEE1D3F034B003A1B78 /* FamilyListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354CED1D3F034B003A1B78 /* FamilyListTableViewController.m */; };
+		3D354CF11D3F0430003A1B78 /* FamilyListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354CF01D3F0430003A1B78 /* FamilyListModel.m */; };
+		3D354CF51D3F047A003A1B78 /* FamilyListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354CF31D3F047A003A1B78 /* FamilyListTableViewCell.m */; };
+		3D354CF61D3F047A003A1B78 /* FamilyListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D354CF41D3F047A003A1B78 /* FamilyListTableViewCell.xib */; };
+		3D354CFA1D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354CF81D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.m */; };
+		3D354D0B1D3F486E003A1B78 /* DataLabelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354D091D3F486E003A1B78 /* DataLabelCell.m */; };
+		3D354D0C1D3F486E003A1B78 /* DataLabelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D354D0A1D3F486E003A1B78 /* DataLabelCell.xib */; };
+		3D354D0F1D3F4CC5003A1B78 /* DataLabelModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354D0E1D3F4CC5003A1B78 /* DataLabelModel.m */; };
+		3D354D131D3F5E38003A1B78 /* EfficiencyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D354D111D3F5E38003A1B78 /* EfficiencyCell.m */; };
+		3D354D141D3F5E38003A1B78 /* EfficiencyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D354D121D3F5E38003A1B78 /* EfficiencyCell.xib */; };
+		3D97046F1D44CA3C000BD726 /* HotKnowledgeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D97046E1D44CA3C000BD726 /* HotKnowledgeModel.m */; };
+		3D9704731D44DD83000BD726 /* HotKnowledgeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9704711D44DD83000BD726 /* HotKnowledgeTableViewCell.m */; };
+		3D9704741D44DD83000BD726 /* HotKnowledgeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9704721D44DD83000BD726 /* HotKnowledgeTableViewCell.xib */; };
+		3D9704771D44DFB8000BD726 /* KnowledgeClassifyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9704761D44DFB8000BD726 /* KnowledgeClassifyModel.m */; };
+		3D9A83F81D4072A2000DD0E2 /* MovementCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A83F61D4072A2000DD0E2 /* MovementCell.m */; };
+		3D9A83F91D4072A2000DD0E2 /* MovementCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A83F71D4072A2000DD0E2 /* MovementCell.xib */; };
+		3D9A83FD1D40768B000DD0E2 /* PieChartCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D9A83FB1D40768B000DD0E2 /* PieChartCell.m */; };
+		3D9A83FE1D40768B000DD0E2 /* PieChartCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D9A83FC1D40768B000DD0E2 /* PieChartCell.xib */; };
+		3DBA80231D372E1D00014187 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA80221D372E1D00014187 /* main.m */; };
+		3DBA80261D372E1D00014187 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA80251D372E1D00014187 /* AppDelegate.m */; };
+		3DBA803C1D372E1D00014187 /* SmartSleepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA803B1D372E1D00014187 /* SmartSleepTests.m */; };
+		3DBA80471D372E1D00014187 /* SmartSleepUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA80461D372E1D00014187 /* SmartSleepUITests.m */; };
+		3DCE0E831D3CA55300473121 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */; };
+		3DCE0E841D3CA55300473121 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */; };
+		3DCE0E941D3D1F8900473121 /* MyRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E931D3D1F8900473121 /* MyRecordTableViewController.m */; };
+		3DCE0E971D3D1F9B00473121 /* FamilyRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E961D3D1F9B00473121 /* FamilyRecordTableViewController.m */; };
+		3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF23941D3A01DC00B71EAA /* Assets.xcassets */; };
+		3DDF239B1D3A128200B71EAA /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF23981D3A128200B71EAA /* UIBarButtonItem+Extension.m */; };
+		3DDF239C1D3A128200B71EAA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF239A1D3A128200B71EAA /* UIView+Extension.m */; };
+		3DDF23A31D3A135F00B71EAA /* CustomNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DDF23A21D3A135F00B71EAA /* CustomNavigationController.m */; };
+		3DFE103F1D38A91F00284C20 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE102C1D38A91F00284C20 /* MainViewController.m */; };
+		3DFE10421D38A98400284C20 /* MonitorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE10411D38A98400284C20 /* MonitorViewController.m */; };
+		3DFE10451D38AC2F00284C20 /* QualityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE10441D38AC2F00284C20 /* QualityViewController.m */; };
+		3DFE104B1D38AC5400284C20 /* KnowledgeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFE104A1D38AC5400284C20 /* KnowledgeViewController.m */; };
+		8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */; };
+		8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */; };
+		8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */; };
+		8CF6A9171D44F2270094E52D /* TitleViewViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A9151D44F2270094E52D /* TitleViewViewCell.m */; };
+		8CF6A9181D44F2270094E52D /* TitleViewViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DBA80381D372E1D00014187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBA80161D372E1D00014187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBA801D1D372E1D00014187;
+			remoteInfo = SmartSleep;
+		};
+		3DBA80431D372E1D00014187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DBA80161D372E1D00014187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DBA801D1D372E1D00014187;
+			remoteInfo = SmartSleep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11A25B9B3086786D4A31517E /* libPods-SmartSleep.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SmartSleep.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D22F2661D3DED7400747E02 /* MyRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecordModel.h; sourceTree = "<group>"; };
+		3D22F2671D3DED7400747E02 /* MyRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecordModel.m; sourceTree = "<group>"; };
+		3D22F2691D3DFD3B00747E02 /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
+		3D22F26A1D3DFD3B00747E02 /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
+		3D22F26C1D3E03CE00747E02 /* MyRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecordTableViewCell.h; sourceTree = "<group>"; };
+		3D22F26D1D3E03CE00747E02 /* MyRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecordTableViewCell.m; sourceTree = "<group>"; };
+		3D22F26E1D3E03CE00747E02 /* MyRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyRecordTableViewCell.xib; sourceTree = "<group>"; };
+		3D22F2711D3E096100747E02 /* FamilyRecordTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyRecordTableViewCell.h; sourceTree = "<group>"; };
+		3D22F2721D3E096100747E02 /* FamilyRecordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyRecordTableViewCell.m; sourceTree = "<group>"; };
+		3D22F2731D3E096100747E02 /* FamilyRecordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamilyRecordTableViewCell.xib; sourceTree = "<group>"; };
+		3D22F2761D3E098500747E02 /* FamilyRecordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyRecordModel.h; sourceTree = "<group>"; };
+		3D22F2771D3E098500747E02 /* FamilyRecordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyRecordModel.m; sourceTree = "<group>"; };
+		3D22F2891D3E683100747E02 /* StatisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StatisticsViewController.h; sourceTree = "<group>"; };
+		3D22F28A1D3E683100747E02 /* StatisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StatisticsViewController.m; sourceTree = "<group>"; };
+		3D354CEC1D3F034B003A1B78 /* FamilyListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyListTableViewController.h; sourceTree = "<group>"; };
+		3D354CED1D3F034B003A1B78 /* FamilyListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyListTableViewController.m; sourceTree = "<group>"; };
+		3D354CEF1D3F0430003A1B78 /* FamilyListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyListModel.h; sourceTree = "<group>"; };
+		3D354CF01D3F0430003A1B78 /* FamilyListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyListModel.m; sourceTree = "<group>"; };
+		3D354CF21D3F047A003A1B78 /* FamilyListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyListTableViewCell.h; sourceTree = "<group>"; };
+		3D354CF31D3F047A003A1B78 /* FamilyListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyListTableViewCell.m; sourceTree = "<group>"; };
+		3D354CF41D3F047A003A1B78 /* FamilyListTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FamilyListTableViewCell.xib; sourceTree = "<group>"; };
+		3D354CF71D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceStatisticsTableViewController.h; sourceTree = "<group>"; };
+		3D354CF81D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceStatisticsTableViewController.m; sourceTree = "<group>"; };
+		3D354D081D3F486E003A1B78 /* DataLabelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLabelCell.h; sourceTree = "<group>"; };
+		3D354D091D3F486E003A1B78 /* DataLabelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLabelCell.m; sourceTree = "<group>"; };
+		3D354D0A1D3F486E003A1B78 /* DataLabelCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DataLabelCell.xib; sourceTree = "<group>"; };
+		3D354D0D1D3F4CC5003A1B78 /* DataLabelModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataLabelModel.h; sourceTree = "<group>"; };
+		3D354D0E1D3F4CC5003A1B78 /* DataLabelModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataLabelModel.m; sourceTree = "<group>"; };
+		3D354D101D3F5E38003A1B78 /* EfficiencyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EfficiencyCell.h; sourceTree = "<group>"; };
+		3D354D111D3F5E38003A1B78 /* EfficiencyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EfficiencyCell.m; sourceTree = "<group>"; };
+		3D354D121D3F5E38003A1B78 /* EfficiencyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EfficiencyCell.xib; sourceTree = "<group>"; };
+		3D97046D1D44CA3C000BD726 /* HotKnowledgeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotKnowledgeModel.h; sourceTree = "<group>"; };
+		3D97046E1D44CA3C000BD726 /* HotKnowledgeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotKnowledgeModel.m; sourceTree = "<group>"; };
+		3D9704701D44DD83000BD726 /* HotKnowledgeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotKnowledgeTableViewCell.h; sourceTree = "<group>"; };
+		3D9704711D44DD83000BD726 /* HotKnowledgeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotKnowledgeTableViewCell.m; sourceTree = "<group>"; };
+		3D9704721D44DD83000BD726 /* HotKnowledgeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HotKnowledgeTableViewCell.xib; sourceTree = "<group>"; };
+		3D9704751D44DFB8000BD726 /* KnowledgeClassifyModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeClassifyModel.h; sourceTree = "<group>"; };
+		3D9704761D44DFB8000BD726 /* KnowledgeClassifyModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeClassifyModel.m; sourceTree = "<group>"; };
+		3D9A83F51D4072A2000DD0E2 /* MovementCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovementCell.h; sourceTree = "<group>"; };
+		3D9A83F61D4072A2000DD0E2 /* MovementCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovementCell.m; sourceTree = "<group>"; };
+		3D9A83F71D4072A2000DD0E2 /* MovementCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MovementCell.xib; sourceTree = "<group>"; };
+		3D9A83FA1D40768B000DD0E2 /* PieChartCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PieChartCell.h; sourceTree = "<group>"; };
+		3D9A83FB1D40768B000DD0E2 /* PieChartCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PieChartCell.m; sourceTree = "<group>"; };
+		3D9A83FC1D40768B000DD0E2 /* PieChartCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PieChartCell.xib; sourceTree = "<group>"; };
+		3DBA801E1D372E1D00014187 /* SmartSleep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartSleep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBA80221D372E1D00014187 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DBA80241D372E1D00014187 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3DBA80251D372E1D00014187 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3DBA80321D372E1D00014187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBA80371D372E1D00014187 /* SmartSleepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSleepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBA803B1D372E1D00014187 /* SmartSleepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartSleepTests.m; sourceTree = "<group>"; };
+		3DBA803D1D372E1D00014187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DBA80421D372E1D00014187 /* SmartSleepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartSleepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DBA80461D372E1D00014187 /* SmartSleepUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartSleepUITests.m; sourceTree = "<group>"; };
+		3DBA80481D372E1D00014187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DCE0E801D3CA55300473121 /* AuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
+		3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
+		3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
+		3DCE0E921D3D1F8900473121 /* MyRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecordTableViewController.h; sourceTree = "<group>"; };
+		3DCE0E931D3D1F8900473121 /* MyRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecordTableViewController.m; sourceTree = "<group>"; };
+		3DCE0E951D3D1F9B00473121 /* FamilyRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyRecordTableViewController.h; sourceTree = "<group>"; };
+		3DCE0E961D3D1F9B00473121 /* FamilyRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyRecordTableViewController.m; sourceTree = "<group>"; };
+		3DDF23941D3A01DC00B71EAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DDF23971D3A128200B71EAA /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		3DDF23981D3A128200B71EAA /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		3DDF23991D3A128200B71EAA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		3DDF239A1D3A128200B71EAA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		3DDF23A11D3A135F00B71EAA /* CustomNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNavigationController.h; sourceTree = "<group>"; };
+		3DDF23A21D3A135F00B71EAA /* CustomNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNavigationController.m; sourceTree = "<group>"; };
+		3DFE102B1D38A91F00284C20 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3DFE102C1D38A91F00284C20 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3DFE10401D38A98400284C20 /* MonitorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonitorViewController.h; sourceTree = "<group>"; };
+		3DFE10411D38A98400284C20 /* MonitorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonitorViewController.m; sourceTree = "<group>"; };
+		3DFE10431D38AC2F00284C20 /* QualityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QualityViewController.h; sourceTree = "<group>"; };
+		3DFE10441D38AC2F00284C20 /* QualityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QualityViewController.m; sourceTree = "<group>"; };
+		3DFE10491D38AC5400284C20 /* KnowledgeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KnowledgeViewController.h; sourceTree = "<group>"; };
+		3DFE104A1D38AC5400284C20 /* KnowledgeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KnowledgeViewController.m; sourceTree = "<group>"; };
+		3DFE105A1D38C05700284C20 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		480C422FE372BCB61521D395 /* Pods-SmartSleep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSleep.release.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSleep/Pods-SmartSleep.release.xcconfig"; sourceTree = "<group>"; };
+		7771B0C5C428913566DD3679 /* Pods-SmartSleep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartSleep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SmartSleep/Pods-SmartSleep.debug.xcconfig"; sourceTree = "<group>"; };
+		8CF6A9091D44E80C0094E52D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8CF6A90E1D44EFEF0094E52D /* MyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReportViewController.h; sourceTree = "<group>"; };
+		8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReportViewController.m; sourceTree = "<group>"; };
+		8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyReportViewController.h; sourceTree = "<group>"; };
+		8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyReportViewController.m; sourceTree = "<group>"; };
+		8CF6A9141D44F2270094E52D /* TitleViewViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TitleViewViewCell.h; path = SmartSleep/Classes/Statistics/Controller/TitleViewViewCell.h; sourceTree = SOURCE_ROOT; };
+		8CF6A9151D44F2270094E52D /* TitleViewViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TitleViewViewCell.m; path = SmartSleep/Classes/Statistics/Controller/TitleViewViewCell.m; sourceTree = SOURCE_ROOT; };
+		8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TitleViewViewCell.xib; path = SmartSleep/Classes/Statistics/Controller/TitleViewViewCell.xib; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DBA801B1D372E1D00014187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				251337ED58BA278AD9E0B712 /* libPods-SmartSleep.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA80341D372E1D00014187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA803F1D372E1D00014187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DBA80151D372E1D00014187 = {
+			isa = PBXGroup;
+			children = (
+				3DBA80201D372E1D00014187 /* SmartSleep */,
+				3DBA803A1D372E1D00014187 /* SmartSleepTests */,
+				3DBA80451D372E1D00014187 /* SmartSleepUITests */,
+				3DBA801F1D372E1D00014187 /* Products */,
+				CB0D71EB54BA64A29FB62AC9 /* Pods */,
+				931F91716125BF98A16EF55F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3DBA801F1D372E1D00014187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA801E1D372E1D00014187 /* SmartSleep.app */,
+				3DBA80371D372E1D00014187 /* SmartSleepTests.xctest */,
+				3DBA80421D372E1D00014187 /* SmartSleepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DBA80201D372E1D00014187 /* SmartSleep */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA80241D372E1D00014187 /* AppDelegate.h */,
+				3DBA80251D372E1D00014187 /* AppDelegate.m */,
+				3DFE10241D38A91F00284C20 /* Classes */,
+				3DBA80211D372E1D00014187 /* Supporting Files */,
+			);
+			path = SmartSleep;
+			sourceTree = "<group>";
+		};
+		3DBA80211D372E1D00014187 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF23941D3A01DC00B71EAA /* Assets.xcassets */,
+				3DBA80321D372E1D00014187 /* Info.plist */,
+				3DBA80221D372E1D00014187 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DBA803A1D372E1D00014187 /* SmartSleepTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA803B1D372E1D00014187 /* SmartSleepTests.m */,
+				3DBA803D1D372E1D00014187 /* Info.plist */,
+			);
+			path = SmartSleepTests;
+			sourceTree = "<group>";
+		};
+		3DBA80451D372E1D00014187 /* SmartSleepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA80461D372E1D00014187 /* SmartSleepUITests.m */,
+				3DBA80481D372E1D00014187 /* Info.plist */,
+			);
+			path = SmartSleepUITests;
+			sourceTree = "<group>";
+		};
+		3DCE0E7C1D3CA4E100473121 /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				3DCE0E7E1D3CA50800473121 /* Model */,
+				3DCE0E7F1D3CA50800473121 /* View */,
+				3DCE0E7D1D3CA50800473121 /* Controller */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		3DCE0E7D1D3CA50800473121 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DCE0E801D3CA55300473121 /* AuthorizationViewController.h */,
+				3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */,
+				3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DCE0E7E1D3CA50800473121 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DCE0E7F1D3CA50800473121 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DDF23961D3A128200B71EAA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF23991D3A128200B71EAA /* UIView+Extension.h */,
+				3DDF239A1D3A128200B71EAA /* UIView+Extension.m */,
+				3DDF23971D3A128200B71EAA /* UIBarButtonItem+Extension.h */,
+				3DDF23981D3A128200B71EAA /* UIBarButtonItem+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3DDF239D1D3A129A00B71EAA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DDF23A11D3A135F00B71EAA /* CustomNavigationController.h */,
+				3DDF23A21D3A135F00B71EAA /* CustomNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE10241D38A91F00284C20 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10291D38A91F00284C20 /* Main */,
+				3DFE102F1D38A91F00284C20 /* Monitor */,
+				3DFE10371D38A91F00284C20 /* Quality */,
+				3DFE103B1D38A91F00284C20 /* Statistics */,
+				3DFE10251D38A91F00284C20 /* Knowledge */,
+				8CF6A9071D44E80C0094E52D /* Profile */,
+				3DCE0E7C1D3CA4E100473121 /* Authorization */,
+				3DFE10591D38C05700284C20 /* Others */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3DFE10251D38A91F00284C20 /* Knowledge */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10271D38A91F00284C20 /* Model */,
+				3DFE10281D38A91F00284C20 /* View */,
+				3DFE10261D38A91F00284C20 /* Controller */,
+			);
+			path = Knowledge;
+			sourceTree = "<group>";
+		};
+		3DFE10261D38A91F00284C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10491D38AC5400284C20 /* KnowledgeViewController.h */,
+				3DFE104A1D38AC5400284C20 /* KnowledgeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE10271D38A91F00284C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D97046D1D44CA3C000BD726 /* HotKnowledgeModel.h */,
+				3D97046E1D44CA3C000BD726 /* HotKnowledgeModel.m */,
+				3D9704751D44DFB8000BD726 /* KnowledgeClassifyModel.h */,
+				3D9704761D44DFB8000BD726 /* KnowledgeClassifyModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFE10281D38A91F00284C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D9704701D44DD83000BD726 /* HotKnowledgeTableViewCell.h */,
+				3D9704711D44DD83000BD726 /* HotKnowledgeTableViewCell.m */,
+				3D9704721D44DD83000BD726 /* HotKnowledgeTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFE10291D38A91F00284C20 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE102D1D38A91F00284C20 /* Model */,
+				3DFE102E1D38A91F00284C20 /* View */,
+				3DFE102A1D38A91F00284C20 /* Controller */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3DFE102A1D38A91F00284C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE102B1D38A91F00284C20 /* MainViewController.h */,
+				3DFE102C1D38A91F00284C20 /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE102D1D38A91F00284C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFE102E1D38A91F00284C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFE102F1D38A91F00284C20 /* Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10311D38A91F00284C20 /* Model */,
+				3DFE10321D38A91F00284C20 /* View */,
+				3DFE10301D38A91F00284C20 /* Controller */,
+			);
+			path = Monitor;
+			sourceTree = "<group>";
+		};
+		3DFE10301D38A91F00284C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10401D38A98400284C20 /* MonitorViewController.h */,
+				3DFE10411D38A98400284C20 /* MonitorViewController.m */,
+				3D354CF71D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.h */,
+				3D354CF81D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE10311D38A91F00284C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D354D0D1D3F4CC5003A1B78 /* DataLabelModel.h */,
+				3D354D0E1D3F4CC5003A1B78 /* DataLabelModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFE10321D38A91F00284C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D354D081D3F486E003A1B78 /* DataLabelCell.h */,
+				3D354D091D3F486E003A1B78 /* DataLabelCell.m */,
+				3D354D0A1D3F486E003A1B78 /* DataLabelCell.xib */,
+				3D9A83FA1D40768B000DD0E2 /* PieChartCell.h */,
+				3D9A83FB1D40768B000DD0E2 /* PieChartCell.m */,
+				3D9A83FC1D40768B000DD0E2 /* PieChartCell.xib */,
+				3D354D101D3F5E38003A1B78 /* EfficiencyCell.h */,
+				3D354D111D3F5E38003A1B78 /* EfficiencyCell.m */,
+				3D354D121D3F5E38003A1B78 /* EfficiencyCell.xib */,
+				3D9A83F51D4072A2000DD0E2 /* MovementCell.h */,
+				3D9A83F61D4072A2000DD0E2 /* MovementCell.m */,
+				3D9A83F71D4072A2000DD0E2 /* MovementCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFE10371D38A91F00284C20 /* Quality */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10391D38A91F00284C20 /* Model */,
+				3DFE103A1D38A91F00284C20 /* View */,
+				3DFE10381D38A91F00284C20 /* Controller */,
+			);
+			path = Quality;
+			sourceTree = "<group>";
+		};
+		3DFE10381D38A91F00284C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE10431D38AC2F00284C20 /* QualityViewController.h */,
+				3DFE10441D38AC2F00284C20 /* QualityViewController.m */,
+				3DCE0E921D3D1F8900473121 /* MyRecordTableViewController.h */,
+				3DCE0E931D3D1F8900473121 /* MyRecordTableViewController.m */,
+				3D354CEC1D3F034B003A1B78 /* FamilyListTableViewController.h */,
+				3D354CED1D3F034B003A1B78 /* FamilyListTableViewController.m */,
+				3DCE0E951D3D1F9B00473121 /* FamilyRecordTableViewController.h */,
+				3DCE0E961D3D1F9B00473121 /* FamilyRecordTableViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE10391D38A91F00284C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3D22F2661D3DED7400747E02 /* MyRecordModel.h */,
+				3D22F2671D3DED7400747E02 /* MyRecordModel.m */,
+				3D354CEF1D3F0430003A1B78 /* FamilyListModel.h */,
+				3D354CF01D3F0430003A1B78 /* FamilyListModel.m */,
+				3D22F2761D3E098500747E02 /* FamilyRecordModel.h */,
+				3D22F2771D3E098500747E02 /* FamilyRecordModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFE103A1D38A91F00284C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				3D22F26C1D3E03CE00747E02 /* MyRecordTableViewCell.h */,
+				3D22F26D1D3E03CE00747E02 /* MyRecordTableViewCell.m */,
+				3D22F26E1D3E03CE00747E02 /* MyRecordTableViewCell.xib */,
+				3D354CF21D3F047A003A1B78 /* FamilyListTableViewCell.h */,
+				3D354CF31D3F047A003A1B78 /* FamilyListTableViewCell.m */,
+				3D354CF41D3F047A003A1B78 /* FamilyListTableViewCell.xib */,
+				3D22F2711D3E096100747E02 /* FamilyRecordTableViewCell.h */,
+				3D22F2721D3E096100747E02 /* FamilyRecordTableViewCell.m */,
+				3D22F2731D3E096100747E02 /* FamilyRecordTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFE103B1D38A91F00284C20 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE103D1D38A91F00284C20 /* Model */,
+				3DFE103E1D38A91F00284C20 /* View */,
+				3DFE103C1D38A91F00284C20 /* Controller */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		3DFE103C1D38A91F00284C20 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D22F2891D3E683100747E02 /* StatisticsViewController.h */,
+				3D22F28A1D3E683100747E02 /* StatisticsViewController.m */,
+				8CF6A90E1D44EFEF0094E52D /* MyReportViewController.h */,
+				8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */,
+				8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */,
+				8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFE103D1D38A91F00284C20 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFE103E1D38A91F00284C20 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6A9141D44F2270094E52D /* TitleViewViewCell.h */,
+				8CF6A9151D44F2270094E52D /* TitleViewViewCell.m */,
+				8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3DFE10591D38C05700284C20 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				3DFE105A1D38C05700284C20 /* PrefixHeader.pch */,
+				3DDF239D1D3A129A00B71EAA /* Controller */,
+				3DDF23961D3A128200B71EAA /* Category */,
+				3D22F2691D3DFD3B00747E02 /* Const.h */,
+				3D22F26A1D3DFD3B00747E02 /* Const.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		8CF6A9071D44E80C0094E52D /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6A90B1D44E80C0094E52D /* Model */,
+				8CF6A90C1D44E80C0094E52D /* View */,
+				8CF6A9081D44E80C0094E52D /* Controller */,
+			);
+			name = Profile;
+			path = SmartSleep/Classes/Profile;
+			sourceTree = SOURCE_ROOT;
+		};
+		8CF6A9081D44E80C0094E52D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CF6A9091D44E80C0094E52D /* ProfileViewController.h */,
+				8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8CF6A90B1D44E80C0094E52D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8CF6A90C1D44E80C0094E52D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		931F91716125BF98A16EF55F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				11A25B9B3086786D4A31517E /* libPods-SmartSleep.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB0D71EB54BA64A29FB62AC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7771B0C5C428913566DD3679 /* Pods-SmartSleep.debug.xcconfig */,
+				480C422FE372BCB61521D395 /* Pods-SmartSleep.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DBA801D1D372E1D00014187 /* SmartSleep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBA804B1D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleep" */;
+			buildPhases = (
+				080B4699F4BE9796BA03E739 /* [CP] Check Pods Manifest.lock */,
+				3DBA801A1D372E1D00014187 /* Sources */,
+				3DBA801B1D372E1D00014187 /* Frameworks */,
+				3DBA801C1D372E1D00014187 /* Resources */,
+				9A51B1DB0A725729F31A6F3A /* [CP] Embed Pods Frameworks */,
+				386D895FB9E75980AD666BD8 /* [CP] Copy Pods Resources */,
+				8F43C6C798DBCA5E54ED31ED /* Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartSleep;
+			productName = SmartSleep;
+			productReference = 3DBA801E1D372E1D00014187 /* SmartSleep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DBA80361D372E1D00014187 /* SmartSleepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBA804E1D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleepTests" */;
+			buildPhases = (
+				3DBA80331D372E1D00014187 /* Sources */,
+				3DBA80341D372E1D00014187 /* Frameworks */,
+				3DBA80351D372E1D00014187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBA80391D372E1D00014187 /* PBXTargetDependency */,
+			);
+			name = SmartSleepTests;
+			productName = SmartSleepTests;
+			productReference = 3DBA80371D372E1D00014187 /* SmartSleepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DBA80411D372E1D00014187 /* SmartSleepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DBA80511D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleepUITests" */;
+			buildPhases = (
+				3DBA803E1D372E1D00014187 /* Sources */,
+				3DBA803F1D372E1D00014187 /* Frameworks */,
+				3DBA80401D372E1D00014187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DBA80441D372E1D00014187 /* PBXTargetDependency */,
+			);
+			name = SmartSleepUITests;
+			productName = SmartSleepUITests;
+			productReference = 3DBA80421D372E1D00014187 /* SmartSleepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DBA80161D372E1D00014187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "William Cai";
+				TargetAttributes = {
+					3DBA801D1D372E1D00014187 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = L2E9GA3BDN;
+					};
+					3DBA80361D372E1D00014187 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3DBA801D1D372E1D00014187;
+					};
+					3DBA80411D372E1D00014187 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3DBA801D1D372E1D00014187;
+					};
+				};
+			};
+			buildConfigurationList = 3DBA80191D372E1D00014187 /* Build configuration list for PBXProject "SmartSleep" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DBA80151D372E1D00014187;
+			productRefGroup = 3DBA801F1D372E1D00014187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DBA801D1D372E1D00014187 /* SmartSleep */,
+				3DBA80361D372E1D00014187 /* SmartSleepTests */,
+				3DBA80411D372E1D00014187 /* SmartSleepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DBA801C1D372E1D00014187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D22F2701D3E03CE00747E02 /* MyRecordTableViewCell.xib in Resources */,
+				3D9704741D44DD83000BD726 /* HotKnowledgeTableViewCell.xib in Resources */,
+				3D354CF61D3F047A003A1B78 /* FamilyListTableViewCell.xib in Resources */,
+				8CF6A9181D44F2270094E52D /* TitleViewViewCell.xib in Resources */,
+				3D9A83FE1D40768B000DD0E2 /* PieChartCell.xib in Resources */,
+				3D9A83F91D4072A2000DD0E2 /* MovementCell.xib in Resources */,
+				3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */,
+				3D22F2751D3E096100747E02 /* FamilyRecordTableViewCell.xib in Resources */,
+				3D354D141D3F5E38003A1B78 /* EfficiencyCell.xib in Resources */,
+				3D354D0C1D3F486E003A1B78 /* DataLabelCell.xib in Resources */,
+				3DCE0E841D3CA55300473121 /* AuthorizationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA80351D372E1D00014187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA80401D372E1D00014187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		080B4699F4BE9796BA03E739 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		386D895FB9E75980AD666BD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSleep/Pods-SmartSleep-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F43C6C798DBCA5E54ED31ED /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSleep/Pods-SmartSleep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A51B1DB0A725729F31A6F3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SmartSleep/Pods-SmartSleep-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DBA801A1D372E1D00014187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DCE0E971D3D1F9B00473121 /* FamilyRecordTableViewController.m in Sources */,
+				3D9704771D44DFB8000BD726 /* KnowledgeClassifyModel.m in Sources */,
+				3D354CEE1D3F034B003A1B78 /* FamilyListTableViewController.m in Sources */,
+				3DDF239C1D3A128200B71EAA /* UIView+Extension.m in Sources */,
+				3D354CFA1D3F0DEC003A1B78 /* DeviceStatisticsTableViewController.m in Sources */,
+				3DBA80261D372E1D00014187 /* AppDelegate.m in Sources */,
+				3DFE10451D38AC2F00284C20 /* QualityViewController.m in Sources */,
+				3DCE0E941D3D1F8900473121 /* MyRecordTableViewController.m in Sources */,
+				8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */,
+				3D9A83F81D4072A2000DD0E2 /* MovementCell.m in Sources */,
+				3D9704731D44DD83000BD726 /* HotKnowledgeTableViewCell.m in Sources */,
+				3D22F26F1D3E03CE00747E02 /* MyRecordTableViewCell.m in Sources */,
+				3DFE10421D38A98400284C20 /* MonitorViewController.m in Sources */,
+				3D354CF51D3F047A003A1B78 /* FamilyListTableViewCell.m in Sources */,
+				3DDF23A31D3A135F00B71EAA /* CustomNavigationController.m in Sources */,
+				3D22F26B1D3DFD3B00747E02 /* Const.m in Sources */,
+				3D9A83FD1D40768B000DD0E2 /* PieChartCell.m in Sources */,
+				3D97046F1D44CA3C000BD726 /* HotKnowledgeModel.m in Sources */,
+				3D22F2781D3E098500747E02 /* FamilyRecordModel.m in Sources */,
+				8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */,
+				3DFE103F1D38A91F00284C20 /* MainViewController.m in Sources */,
+				8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */,
+				3DCE0E831D3CA55300473121 /* AuthorizationViewController.m in Sources */,
+				3DDF239B1D3A128200B71EAA /* UIBarButtonItem+Extension.m in Sources */,
+				3D354CF11D3F0430003A1B78 /* FamilyListModel.m in Sources */,
+				3D354D131D3F5E38003A1B78 /* EfficiencyCell.m in Sources */,
+				8CF6A9171D44F2270094E52D /* TitleViewViewCell.m in Sources */,
+				3DFE104B1D38AC5400284C20 /* KnowledgeViewController.m in Sources */,
+				3D22F28B1D3E683100747E02 /* StatisticsViewController.m in Sources */,
+				3D354D0B1D3F486E003A1B78 /* DataLabelCell.m in Sources */,
+				3DBA80231D372E1D00014187 /* main.m in Sources */,
+				3D22F2741D3E096100747E02 /* FamilyRecordTableViewCell.m in Sources */,
+				3D22F2681D3DED7400747E02 /* MyRecordModel.m in Sources */,
+				3D354D0F1D3F4CC5003A1B78 /* DataLabelModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA80331D372E1D00014187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBA803C1D372E1D00014187 /* SmartSleepTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DBA803E1D372E1D00014187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBA80471D372E1D00014187 /* SmartSleepUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DBA80391D372E1D00014187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBA801D1D372E1D00014187 /* SmartSleep */;
+			targetProxy = 3DBA80381D372E1D00014187 /* PBXContainerItemProxy */;
+		};
+		3DBA80441D372E1D00014187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DBA801D1D372E1D00014187 /* SmartSleep */;
+			targetProxy = 3DBA80431D372E1D00014187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DBA80491D372E1D00014187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DBA804A1D372E1D00014187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DBA804C1D372E1D00014187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7771B0C5C428913566DD3679 /* Pods-SmartSleep.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = SmartSleep/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = SmartSleep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3DBA804D1D372E1D00014187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 480C422FE372BCB61521D395 /* Pods-SmartSleep.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREFIX_HEADER = SmartSleep/Classes/Others/PrefixHeader.pch;
+				INFOPLIST_FILE = SmartSleep/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleep;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3DBA804F1D372E1D00014187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSleep.app/SmartSleep";
+			};
+			name = Debug;
+		};
+		3DBA80501D372E1D00014187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SmartSleepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleepTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartSleep.app/SmartSleep";
+			};
+			name = Release;
+		};
+		3DBA80521D372E1D00014187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartSleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartSleep;
+			};
+			name = Debug;
+		};
+		3DBA80531D372E1D00014187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SmartSleepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleepUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SmartSleep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DBA80191D372E1D00014187 /* Build configuration list for PBXProject "SmartSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBA80491D372E1D00014187 /* Debug */,
+				3DBA804A1D372E1D00014187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBA804B1D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBA804C1D372E1D00014187 /* Debug */,
+				3DBA804D1D372E1D00014187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBA804E1D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBA804F1D372E1D00014187 /* Debug */,
+				3DBA80501D372E1D00014187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DBA80511D372E1D00014187 /* Build configuration list for PBXNativeTarget "SmartSleepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DBA80521D372E1D00014187 /* Debug */,
+				3DBA80531D372E1D00014187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DBA80161D372E1D00014187 /* Project object */;
+}

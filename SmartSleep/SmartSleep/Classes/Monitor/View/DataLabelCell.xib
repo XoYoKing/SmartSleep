@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="LabelCell" rowHeight="85" id="KGk-i7-Jjw" customClass="DataLabelCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="79.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q6X-Vn-JAT">
+                        <rect key="frame" x="0.0" y="0.0" width="160" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="08:00-09:00" image="bed">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <state key="disabled" title="08:00-09:00"/>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTm-sh-dhA">
+                        <rect key="frame" x="160" y="0.0" width="160" height="40"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="9:08-08:08" image="asleep">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fDE-Cx-0ff">
+                        <rect key="frame" x="0.0" y="40" width="160" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="7小时" image="sleeptime">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8l-e3-kT8">
+                        <rect key="frame" x="160" y="40" width="160" height="39.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <inset key="titleEdgeInsets" minX="20" minY="0.0" maxX="0.0" maxY="-10"/>
+                        <inset key="imageEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="29分钟" image="fallasleep">
+                            <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="VTm-sh-dhA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="6J6-wl-TwJ"/>
+                    <constraint firstItem="fDE-Cx-0ff" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9Pu-Lz-nEs"/>
+                    <constraint firstItem="q6X-Vn-JAT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Dqj-fF-x9e"/>
+                    <constraint firstItem="fDE-Cx-0ff" firstAttribute="width" secondItem="q6X-Vn-JAT" secondAttribute="width" id="E3d-Ev-Pgb"/>
+                    <constraint firstAttribute="bottom" secondItem="fDE-Cx-0ff" secondAttribute="bottom" id="LyV-7i-net"/>
+                    <constraint firstItem="h8l-e3-kT8" firstAttribute="top" secondItem="VTm-sh-dhA" secondAttribute="bottom" id="VLU-9x-EmU"/>
+                    <constraint firstItem="fDE-Cx-0ff" firstAttribute="height" secondItem="q6X-Vn-JAT" secondAttribute="height" id="WnR-Wv-WtB"/>
+                    <constraint firstItem="h8l-e3-kT8" firstAttribute="leading" secondItem="fDE-Cx-0ff" secondAttribute="trailing" id="Zhd-2x-CBq"/>
+                    <constraint firstItem="h8l-e3-kT8" firstAttribute="height" secondItem="q6X-Vn-JAT" secondAttribute="height" id="bSg-h3-Llr"/>
+                    <constraint firstAttribute="trailing" secondItem="h8l-e3-kT8" secondAttribute="trailing" id="cLZ-pZ-fqf"/>
+                    <constraint firstItem="VTm-sh-dhA" firstAttribute="leading" secondItem="q6X-Vn-JAT" secondAttribute="trailing" id="eDf-ab-Je7"/>
+                    <constraint firstItem="VTm-sh-dhA" firstAttribute="height" secondItem="q6X-Vn-JAT" secondAttribute="height" id="fFM-hL-QxI"/>
+                    <constraint firstItem="q6X-Vn-JAT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="j2t-gm-G8Y"/>
+                    <constraint firstItem="VTm-sh-dhA" firstAttribute="width" secondItem="q6X-Vn-JAT" secondAttribute="width" id="jV7-2X-hsu"/>
+                    <constraint firstItem="h8l-e3-kT8" firstAttribute="width" secondItem="q6X-Vn-JAT" secondAttribute="width" id="mTh-Oz-lKK"/>
+                    <constraint firstAttribute="trailing" secondItem="VTm-sh-dhA" secondAttribute="trailing" id="uoC-bo-l9V"/>
+                    <constraint firstAttribute="bottom" secondItem="h8l-e3-kT8" secondAttribute="bottom" id="y8T-bL-vAM"/>
+                    <constraint firstItem="fDE-Cx-0ff" firstAttribute="top" secondItem="q6X-Vn-JAT" secondAttribute="bottom" id="yzh-AH-Scg"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="asleepButton" destination="VTm-sh-dhA" id="ybp-eh-ick"/>
+                <outlet property="bedButton" destination="q6X-Vn-JAT" id="oel-TN-1hL"/>
+                <outlet property="fallasleepButton" destination="h8l-e3-kT8" id="cHD-fz-WCu"/>
+                <outlet property="sleeptimeButton" destination="fDE-Cx-0ff" id="a4o-gv-h1A"/>
+            </connections>
+            <point key="canvasLocation" x="350" y="410.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="asleep" width="30" height="30"/>
+        <image name="bed" width="30" height="30"/>
+        <image name="fallasleep" width="30" height="30"/>
+        <image name="sleeptime" width="30" height="30"/>
+    </resources>
+</document>
