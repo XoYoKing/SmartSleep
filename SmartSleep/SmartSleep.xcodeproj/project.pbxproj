@@ -55,10 +55,10 @@
 		8CDBF0151D4508DF00ED55C1 /* FallAsleepViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0141D4508DF00ED55C1 /* FallAsleepViewController.m */; };
 		8CDBF0181D4508F900ED55C1 /* SleepLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0171D4508F900ED55C1 /* SleepLeaveViewController.m */; };
 		8CDBF01B1D45090E00ED55C1 /* SleepMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF01A1D45090E00ED55C1 /* SleepMoveViewController.m */; };
+		8CDBF01E1D45387800ED55C1 /* ReportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF01D1D45387800ED55C1 /* ReportDetailViewController.m */; };
 		8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */; };
 		8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */; };
 		8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */; };
-		8CF6A9181D44F2270094E52D /* TitleViewViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -170,13 +170,14 @@
 		8CDBF0171D4508F900ED55C1 /* SleepLeaveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepLeaveViewController.m; sourceTree = "<group>"; };
 		8CDBF0191D45090E00ED55C1 /* SleepMoveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepMoveViewController.h; sourceTree = "<group>"; };
 		8CDBF01A1D45090E00ED55C1 /* SleepMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepMoveViewController.m; sourceTree = "<group>"; };
+		8CDBF01C1D45387800ED55C1 /* ReportDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportDetailViewController.h; sourceTree = "<group>"; };
+		8CDBF01D1D45387800ED55C1 /* ReportDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportDetailViewController.m; sourceTree = "<group>"; };
 		8CF6A9091D44E80C0094E52D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
 		8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
 		8CF6A90E1D44EFEF0094E52D /* MyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReportViewController.h; sourceTree = "<group>"; };
 		8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReportViewController.m; sourceTree = "<group>"; };
 		8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyReportViewController.h; sourceTree = "<group>"; };
 		8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FamilyReportViewController.m; sourceTree = "<group>"; };
-		8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TitleViewViewCell.xib; path = SmartSleep/Classes/Statistics/Controller/TitleViewViewCell.xib; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -530,6 +531,8 @@
 				8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */,
 				8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */,
 				8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */,
+				8CDBF01C1D45387800ED55C1 /* ReportDetailViewController.h */,
+				8CDBF01D1D45387800ED55C1 /* ReportDetailViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -544,7 +547,6 @@
 		3DFE103E1D38A91F00284C20 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8CF6A9161D44F2270094E52D /* TitleViewViewCell.xib */,
 				8CDBF00D1D45089300ED55C1 /* SleepEfficiencyViewController.h */,
 				8CDBF00E1D45089300ED55C1 /* SleepEfficiencyViewController.m */,
 				8CDBF0101D4508A600ED55C1 /* SleepDurationViewController.h */,
@@ -733,7 +735,6 @@
 				3D22F2701D3E03CE00747E02 /* MyRecordTableViewCell.xib in Resources */,
 				3D9704741D44DD83000BD726 /* HotKnowledgeTableViewCell.xib in Resources */,
 				3D354CF61D3F047A003A1B78 /* FamilyListTableViewCell.xib in Resources */,
-				8CF6A9181D44F2270094E52D /* TitleViewViewCell.xib in Resources */,
 				3D9A83FE1D40768B000DD0E2 /* PieChartCell.xib in Resources */,
 				3D9A83F91D4072A2000DD0E2 /* MovementCell.xib in Resources */,
 				3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */,
@@ -851,6 +852,7 @@
 				3D22F2781D3E098500747E02 /* FamilyRecordModel.m in Sources */,
 				8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */,
 				8CDBF0151D4508DF00ED55C1 /* FallAsleepViewController.m in Sources */,
+				8CDBF01E1D45387800ED55C1 /* ReportDetailViewController.m in Sources */,
 				3DFE103F1D38A91F00284C20 /* MainViewController.m in Sources */,
 				8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */,
 				8CDBF01B1D45090E00ED55C1 /* SleepMoveViewController.m in Sources */,

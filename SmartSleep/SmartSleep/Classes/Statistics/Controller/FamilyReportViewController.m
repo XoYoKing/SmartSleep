@@ -10,6 +10,7 @@
 #import "FamilyListTableViewCell.h"
 #import "FamilyListModel.h"
 
+#import "ReportDetailViewController.h"
 #import <AFNetworking.h>
 #import <MJExtension.h>
 #import <MJRefresh.h>
@@ -125,10 +126,10 @@ static NSString * const familyListCellID= @"FamilyListCell";
     return 100;
 }
 
-//- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-//    FamilyRecordTableViewController *familyRecordTableVC = [[FamilyRecordTableViewController alloc] init];
-//    [self.navigationController pushViewController:familyRecordTableVC animated:YES];
-//}
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    ReportDetailViewController *reportDetailVC = [[ReportDetailViewController alloc] init];
+    [self.navigationController pushViewController:reportDetailVC animated:YES];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

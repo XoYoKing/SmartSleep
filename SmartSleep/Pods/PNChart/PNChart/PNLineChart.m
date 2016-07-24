@@ -64,6 +64,7 @@
 
     if (_yChartLabels) {
         for (PNChartLabel *label in _yChartLabels) {
+            
             [label removeFromSuperview];
         }
     } else {
@@ -77,7 +78,7 @@
         [self addSubview:minLabel];
         [_yChartLabels addObject:minLabel];
 
-        PNChartLabel *midLabel = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, (NSInteger) (_chartCavanHeight / 2), (NSInteger) _chartMarginBottom, (NSInteger) _yLabelHeight)];
+        PNChartLabel *midLabel = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, (NSInteger) (_chartCavanHeight / 2), (NSInteger) _chartMarginBottom + 50, (NSInteger) _yLabelHeight)];
         midLabel.text = [self formatYLabel:_yValueMax];
         [self setCustomStyleForYLabel:midLabel];
         [self addSubview:midLabel];
@@ -94,7 +95,7 @@
         NSInteger num = _yLabelNum + 1;
 
         while (num > 0) {
-            PNChartLabel *label = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, (NSInteger) (_chartCavanHeight - index * yStepHeight), (NSInteger) _chartMarginBottom, (NSInteger) _yLabelHeight)];
+            PNChartLabel *label = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, (NSInteger) (_chartCavanHeight - index * yStepHeight), (NSInteger) _chartMarginBottom , (NSInteger) _yLabelHeight)];
             [label setTextAlignment:NSTextAlignmentRight];
             label.text = [self formatYLabel:_yValueMin + (yStep * index)];
             [self setCustomStyleForYLabel:label];
@@ -109,7 +110,6 @@
 - (void)setYLabels:(NSArray *)yLabels {
     _showGenYLabels = NO;
     _yLabelNum = yLabels.count - 1;
-
     CGFloat yLabelHeight;
     if (_showLabel) {
         yLabelHeight = _chartCavanHeight / [yLabels count];
@@ -123,6 +123,7 @@
 - (void)setYLabels:(NSArray *)yLabels withHeight:(CGFloat)height {
     _yLabels = yLabels;
     _yLabelHeight = height;
+    
     if (_yChartLabels) {
         for (PNChartLabel *label in _yChartLabels) {
             [label removeFromSuperview];
@@ -141,7 +142,7 @@
 
             NSInteger y = (NSInteger) (_chartCavanHeight - index * yStepHeight);
 
-            PNChartLabel *label = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, y, (NSInteger) _chartMarginLeft * 0.9, (NSInteger) _yLabelHeight)];
+            PNChartLabel *label = [[PNChartLabel alloc] initWithFrame:CGRectMake(0.0, y, (NSInteger) _chartMarginLeft +9, (NSInteger) _yLabelHeight)];
             [label setTextAlignment:NSTextAlignmentRight];
             label.text = labelText;
             [self setCustomStyleForYLabel:label];
