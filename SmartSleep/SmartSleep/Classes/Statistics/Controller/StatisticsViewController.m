@@ -11,7 +11,7 @@
 #import "MyReportViewController.h"
 #import "FamilyReportViewController.h"
 
-@interface StatisticsViewController ()<UIScrollViewDelegate>
+@interface StatisticsViewController ()
 @property (nonatomic, weak) UIView *titlesView;
 @property (nonatomic, weak) UIScrollView *contentView;
 @property (nonatomic, weak) UIView *bar;
