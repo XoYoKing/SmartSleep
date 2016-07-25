@@ -7,8 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "LoginViewController.h"
+#import "CustomNavigationController.h"
 #import "MainViewController.h"
-
 @interface AppDelegate ()
 
 @end
@@ -23,11 +24,15 @@
     self.window = [[UIWindow alloc] init];
     self.window.frame = [UIScreen mainScreen].bounds;
     
+    LoginViewController *vc = [[LoginViewController alloc]init];
+    CustomNavigationController *nav = [[CustomNavigationController alloc] initWithRootViewController:vc];
+    //    [self addChildViewController:nav];
     //设置窗口的根控制器
-    self.window.rootViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = nav;
     
     //显示窗口
     [self.window makeKeyAndVisible];
+    [self loginAuto];
     
     return YES;
 }
@@ -52,6 +57,17 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+}
+
+- (void)loginAuto {
+    NSString *password = [[NSUserDefaults standardUserDefaults]objectForKey:@"PassWordKey"];
+    if (password) {
+        MainViewController *vc = [[MainViewController alloc]init];
+        self.window.rootViewController = vc;
+        [self.window makeKeyAndVisible];
+//        [self.window.rootViewController presentViewController:vc animated:NO completion:nil];
+    }
+    
 }
 
 @end

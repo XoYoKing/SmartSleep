@@ -120,7 +120,7 @@
     
     UIScrollView *contentView = [[UIScrollView alloc] init];
     contentView.frame = self.view.bounds;
-    contentView.delegate = self;
+//    contentView.delegate = self;
     contentView.pagingEnabled = YES;
     [self.view insertSubview:contentView atIndex:0];
     contentView.contentSize = CGSizeMake(contentView.width * self.childViewControllers.count, 0);

@@ -56,7 +56,15 @@
 		8CDBF0181D4508F900ED55C1 /* SleepLeaveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0171D4508F900ED55C1 /* SleepLeaveViewController.m */; };
 		8CDBF01B1D45090E00ED55C1 /* SleepMoveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF01A1D45090E00ED55C1 /* SleepMoveViewController.m */; };
 		8CDBF01E1D45387800ED55C1 /* ReportDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF01D1D45387800ED55C1 /* ReportDetailViewController.m */; };
-		8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */; };
+		8CDBF02B1D45ADB100ED55C1 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0241D45ADB100ED55C1 /* ProfileViewController.m */; };
+		8CDBF02C1D45ADB100ED55C1 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0261D45ADB100ED55C1 /* SettingViewController.m */; };
+		8CDBF02D1D45ADB100ED55C1 /* UserInformationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0281D45ADB100ED55C1 /* UserInformationViewController.m */; };
+		8CDBF0311D45AE3F00ED55C1 /* ChangePasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF02F1D45AE3F00ED55C1 /* ChangePasswordViewController.m */; };
+		8CDBF0321D45AE3F00ED55C1 /* ChangePasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBF0301D45AE3F00ED55C1 /* ChangePasswordViewController.xib */; };
+		8CDBF03A1D45B56800ED55C1 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0381D45B56800ED55C1 /* LoginViewController.m */; };
+		8CDBF03B1D45B56800ED55C1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBF0391D45B56800ED55C1 /* LoginViewController.xib */; };
+		8CDBF0421D45B58A00ED55C1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */; };
+		8CDBF0431D45B58A00ED55C1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */; };
 		8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */; };
 		8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */; };
 /* End PBXBuildFile section */
@@ -172,8 +180,21 @@
 		8CDBF01A1D45090E00ED55C1 /* SleepMoveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SleepMoveViewController.m; sourceTree = "<group>"; };
 		8CDBF01C1D45387800ED55C1 /* ReportDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportDetailViewController.h; sourceTree = "<group>"; };
 		8CDBF01D1D45387800ED55C1 /* ReportDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportDetailViewController.m; sourceTree = "<group>"; };
-		8CF6A9091D44E80C0094E52D /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
-		8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8CDBF0231D45ADB100ED55C1 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		8CDBF0241D45ADB100ED55C1 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		8CDBF0251D45ADB100ED55C1 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		8CDBF0261D45ADB100ED55C1 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		8CDBF0271D45ADB100ED55C1 /* UserInformationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInformationViewController.h; sourceTree = "<group>"; };
+		8CDBF0281D45ADB100ED55C1 /* UserInformationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInformationViewController.m; sourceTree = "<group>"; };
+		8CDBF02E1D45AE3F00ED55C1 /* ChangePasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePasswordViewController.h; sourceTree = "<group>"; };
+		8CDBF02F1D45AE3F00ED55C1 /* ChangePasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePasswordViewController.m; sourceTree = "<group>"; };
+		8CDBF0301D45AE3F00ED55C1 /* ChangePasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChangePasswordViewController.xib; sourceTree = "<group>"; };
+		8CDBF0371D45B56800ED55C1 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginViewController.h; path = Login/Controller/LoginViewController.h; sourceTree = "<group>"; };
+		8CDBF0381D45B56800ED55C1 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginViewController.m; path = Login/Controller/LoginViewController.m; sourceTree = "<group>"; };
+		8CDBF0391D45B56800ED55C1 /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Login/Controller/LoginViewController.xib; sourceTree = "<group>"; };
+		8CDBF03F1D45B58A00ED55C1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Login/Controller/RegisterViewController.h; sourceTree = "<group>"; };
+		8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Login/Controller/RegisterViewController.m; sourceTree = "<group>"; };
+		8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = Login/Controller/RegisterViewController.xib; sourceTree = "<group>"; };
 		8CF6A90E1D44EFEF0094E52D /* MyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReportViewController.h; sourceTree = "<group>"; };
 		8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReportViewController.m; sourceTree = "<group>"; };
 		8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyReportViewController.h; sourceTree = "<group>"; };
@@ -324,6 +345,7 @@
 		3DFE10241D38A91F00284C20 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				8CDBF0331D45B52200ED55C1 /* Login */,
 				3DFE10291D38A91F00284C20 /* Main */,
 				3DFE102F1D38A91F00284C20 /* Monitor */,
 				3DFE10371D38A91F00284C20 /* Quality */,
@@ -573,6 +595,43 @@
 			path = Others;
 			sourceTree = "<group>";
 		};
+		8CDBF0331D45B52200ED55C1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBF0361D45B53900ED55C1 /* Model */,
+				8CDBF0341D45B52B00ED55C1 /* View */,
+				8CDBF0351D45B53200ED55C1 /* Controller */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		8CDBF0341D45B52B00ED55C1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8CDBF0351D45B53200ED55C1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8CDBF0371D45B56800ED55C1 /* LoginViewController.h */,
+				8CDBF0381D45B56800ED55C1 /* LoginViewController.m */,
+				8CDBF0391D45B56800ED55C1 /* LoginViewController.xib */,
+				8CDBF03F1D45B58A00ED55C1 /* RegisterViewController.h */,
+				8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */,
+				8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		8CDBF0361D45B53900ED55C1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		8CF6A9071D44E80C0094E52D /* Profile */ = {
 			isa = PBXGroup;
 			children = (
@@ -587,8 +646,15 @@
 		8CF6A9081D44E80C0094E52D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				8CF6A9091D44E80C0094E52D /* ProfileViewController.h */,
-				8CF6A90A1D44E80C0094E52D /* ProfileViewController.m */,
+				8CDBF0231D45ADB100ED55C1 /* ProfileViewController.h */,
+				8CDBF0241D45ADB100ED55C1 /* ProfileViewController.m */,
+				8CDBF0251D45ADB100ED55C1 /* SettingViewController.h */,
+				8CDBF0261D45ADB100ED55C1 /* SettingViewController.m */,
+				8CDBF0271D45ADB100ED55C1 /* UserInformationViewController.h */,
+				8CDBF0281D45ADB100ED55C1 /* UserInformationViewController.m */,
+				8CDBF02E1D45AE3F00ED55C1 /* ChangePasswordViewController.h */,
+				8CDBF02F1D45AE3F00ED55C1 /* ChangePasswordViewController.m */,
+				8CDBF0301D45AE3F00ED55C1 /* ChangePasswordViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -733,12 +799,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D22F2701D3E03CE00747E02 /* MyRecordTableViewCell.xib in Resources */,
+				8CDBF0431D45B58A00ED55C1 /* RegisterViewController.xib in Resources */,
 				3D9704741D44DD83000BD726 /* HotKnowledgeTableViewCell.xib in Resources */,
 				3D354CF61D3F047A003A1B78 /* FamilyListTableViewCell.xib in Resources */,
+				8CDBF0321D45AE3F00ED55C1 /* ChangePasswordViewController.xib in Resources */,
 				3D9A83FE1D40768B000DD0E2 /* PieChartCell.xib in Resources */,
 				3D9A83F91D4072A2000DD0E2 /* MovementCell.xib in Resources */,
 				3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */,
 				3D22F2751D3E096100747E02 /* FamilyRecordTableViewCell.xib in Resources */,
+				8CDBF03B1D45B56800ED55C1 /* LoginViewController.xib in Resources */,
 				3D354D141D3F5E38003A1B78 /* EfficiencyCell.xib in Resources */,
 				3D354D0C1D3F486E003A1B78 /* DataLabelCell.xib in Resources */,
 				3DCE0E841D3CA55300473121 /* AuthorizationViewController.xib in Resources */,
@@ -840,20 +909,25 @@
 				3DCE0E941D3D1F8900473121 /* MyRecordTableViewController.m in Sources */,
 				8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */,
 				3D9A83F81D4072A2000DD0E2 /* MovementCell.m in Sources */,
+				8CDBF0421D45B58A00ED55C1 /* RegisterViewController.m in Sources */,
+				8CDBF0311D45AE3F00ED55C1 /* ChangePasswordViewController.m in Sources */,
 				3D9704731D44DD83000BD726 /* HotKnowledgeTableViewCell.m in Sources */,
 				3D22F26F1D3E03CE00747E02 /* MyRecordTableViewCell.m in Sources */,
 				3DFE10421D38A98400284C20 /* MonitorViewController.m in Sources */,
 				3D354CF51D3F047A003A1B78 /* FamilyListTableViewCell.m in Sources */,
 				3DDF23A31D3A135F00B71EAA /* CustomNavigationController.m in Sources */,
 				3D22F26B1D3DFD3B00747E02 /* Const.m in Sources */,
+				8CDBF02C1D45ADB100ED55C1 /* SettingViewController.m in Sources */,
 				8CDBF0181D4508F900ED55C1 /* SleepLeaveViewController.m in Sources */,
+				8CDBF03A1D45B56800ED55C1 /* LoginViewController.m in Sources */,
 				3D9A83FD1D40768B000DD0E2 /* PieChartCell.m in Sources */,
 				3D97046F1D44CA3C000BD726 /* HotKnowledgeModel.m in Sources */,
 				3D22F2781D3E098500747E02 /* FamilyRecordModel.m in Sources */,
-				8CF6A90D1D44E80C0094E52D /* ProfileViewController.m in Sources */,
 				8CDBF0151D4508DF00ED55C1 /* FallAsleepViewController.m in Sources */,
+				8CDBF02B1D45ADB100ED55C1 /* ProfileViewController.m in Sources */,
 				8CDBF01E1D45387800ED55C1 /* ReportDetailViewController.m in Sources */,
 				3DFE103F1D38A91F00284C20 /* MainViewController.m in Sources */,
+				8CDBF02D1D45ADB100ED55C1 /* UserInformationViewController.m in Sources */,
 				8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */,
 				8CDBF01B1D45090E00ED55C1 /* SleepMoveViewController.m in Sources */,
 				3DCE0E831D3CA55300473121 /* AuthorizationViewController.m in Sources */,

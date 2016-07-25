@@ -1,5 +1,5 @@
 //
-//  MyViewController.h
+//  UserInformationViewController.h
 //  SmartSleep
 //
 //  Created by 许良 on 16/7/16.
@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ProfileViewController : UITableViewController
+@interface UserInformationViewController : UITableViewController
+
 
 @end
