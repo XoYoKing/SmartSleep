@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.backgroundColor = GlobalBackground;
+    self.navigationItem.title = @"设置";
 }
 
 - (void)didReceiveMemoryWarning {

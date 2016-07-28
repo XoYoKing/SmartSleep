@@ -13,8 +13,10 @@
 #import "UIKit+AFNetworking.h"
 
 #import "MainViewController.h"
+#import "RegisterViewController.h"
+#import "ForgetPasswordViewController.h"
 
-@interface LoginViewController ()
+@interface LoginViewController ()<UITextFieldDelegate>
 @property (weak, nonatomic) IBOutlet UITextField *username;
 @property (weak, nonatomic) IBOutlet UITextField *password;
 @property (weak, nonatomic) IBOutlet UIButton *registerBtn;
@@ -26,10 +28,47 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupNav];
+    [self notificationCenter:self.username];
+    [self notificationCenter:self.password];
 }
+- (void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBar.hidden = YES;
+}
+
+- (void)notificationCenter:(UITextField*)textField{
+    [[NSNotificationCenter defaultCenter]addObserver:self selector:@selector(textChange) name:UITextFieldTextDidChangeNotification object:textField];
+    
+}
+-(void)textChange{
+    self.loginBtn.enabled = [self.username.text length] != 0 && [self.password.text length] != 0;
+
+}
+
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    [self.username resignFirstResponder];
+    [self.password resignFirstResponder];
+
+    return YES;
+    
+}
+
+- (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+    [self.username resignFirstResponder];
+    [self.password resignFirstResponder];
+}
+
 - (IBAction)loginAction:(id)sender {
     [SVProgressHUD show];
     [self connectUrl];
+}
+- (IBAction)ForgetPasswordAction:(id)sender {
+    ForgetPasswordViewController *vc = [[ForgetPasswordViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+    
+}
+- (IBAction)RegisterAction:(id)sender {
+    RegisterViewController *vc = [[RegisterViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 -(void)setupNav{
@@ -64,6 +103,7 @@
                  [[NSUserDefaults standardUserDefaults]synchronize];
                  
                  MainViewController *vc = [[MainViewController alloc]init];
+                 [vc setHidesBottomBarWhenPushed:YES];
                  [self.navigationController pushViewController:vc animated:YES];
 
              }
@@ -85,6 +125,7 @@
     
     
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

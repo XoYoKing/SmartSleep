@@ -1,34 +1,31 @@
 //
-//  RegisterViewController.m
+//  ForgetPasswordViewController.m
 //  SmartSleep
 //
-//  Created by 许良 on 16/7/25.
+//  Created by 许良 on 16/7/28.
 //  Copyright © 2016年 William Cai. All rights reserved.
 //
 
-#import "RegisterViewController.h"
+#import "ForgetPasswordViewController.h"
 
-@interface RegisterViewController ()
+@interface ForgetPasswordViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *PhoneNumber;
-@property (weak, nonatomic) IBOutlet UITextField *UserName;
-@property (weak, nonatomic) IBOutlet UITextField *Password;
 @property (weak, nonatomic) IBOutlet UITextField *Identifying;
 @property (weak, nonatomic) IBOutlet UIButton *GetCodeBtn;
-@property (weak, nonatomic) IBOutlet UIButton *RegisterBtn;
+@property (weak, nonatomic) IBOutlet UIButton *RefoundPwd;
 
 @end
 
-@implementation RegisterViewController
+@implementation ForgetPasswordViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.navigationItem.title = @"用户注册";
     // Do any additional setup after loading the view from its nib.
+
+    self.navigationItem.title = @"找回密码";
 }
-- (IBAction)GetCodeAction:(id)sender {
-}
-- (IBAction)RegisterAction:(id)sender {
+- (IBAction)RefoundAction:(id)sender {
+    
 }
 
 - (void)didReceiveMemoryWarning {

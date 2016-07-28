@@ -39,7 +39,6 @@
 		3DBA803C1D372E1D00014187 /* SmartSleepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA803B1D372E1D00014187 /* SmartSleepTests.m */; };
 		3DBA80471D372E1D00014187 /* SmartSleepUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DBA80461D372E1D00014187 /* SmartSleepUITests.m */; };
 		3DCE0E831D3CA55300473121 /* AuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */; };
-		3DCE0E841D3CA55300473121 /* AuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */; };
 		3DCE0E941D3D1F8900473121 /* MyRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E931D3D1F8900473121 /* MyRecordTableViewController.m */; };
 		3DCE0E971D3D1F9B00473121 /* FamilyRecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCE0E961D3D1F9B00473121 /* FamilyRecordTableViewController.m */; };
 		3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDF23941D3A01DC00B71EAA /* Assets.xcassets */; };
@@ -65,6 +64,9 @@
 		8CDBF03B1D45B56800ED55C1 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBF0391D45B56800ED55C1 /* LoginViewController.xib */; };
 		8CDBF0421D45B58A00ED55C1 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */; };
 		8CDBF0431D45B58A00ED55C1 /* RegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */; };
+		8CDF18B01D49DF170027F018 /* SettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDF18AF1D49DF170027F018 /* SettingViewController.xib */; };
+		8CDF18B41D49E69B0027F018 /* ForgetPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CDF18B21D49E69B0027F018 /* ForgetPasswordViewController.m */; };
+		8CDF18B51D49E69B0027F018 /* ForgetPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8CDF18B31D49E69B0027F018 /* ForgetPasswordViewController.xib */; };
 		8CF6A9101D44EFEF0094E52D /* MyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */; };
 		8CF6A9131D44EFFF0094E52D /* FamilyReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CF6A9121D44EFFF0094E52D /* FamilyReportViewController.m */; };
 /* End PBXBuildFile section */
@@ -145,7 +147,6 @@
 		3DBA80481D372E1D00014187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DCE0E801D3CA55300473121 /* AuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AuthorizationViewController.h; sourceTree = "<group>"; };
 		3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AuthorizationViewController.m; sourceTree = "<group>"; };
-		3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AuthorizationViewController.xib; sourceTree = "<group>"; };
 		3DCE0E921D3D1F8900473121 /* MyRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyRecordTableViewController.h; sourceTree = "<group>"; };
 		3DCE0E931D3D1F8900473121 /* MyRecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyRecordTableViewController.m; sourceTree = "<group>"; };
 		3DCE0E951D3D1F9B00473121 /* FamilyRecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyRecordTableViewController.h; sourceTree = "<group>"; };
@@ -195,6 +196,10 @@
 		8CDBF03F1D45B58A00ED55C1 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterViewController.h; path = Login/Controller/RegisterViewController.h; sourceTree = "<group>"; };
 		8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RegisterViewController.m; path = Login/Controller/RegisterViewController.m; sourceTree = "<group>"; };
 		8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RegisterViewController.xib; path = Login/Controller/RegisterViewController.xib; sourceTree = "<group>"; };
+		8CDF18AF1D49DF170027F018 /* SettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingViewController.xib; sourceTree = "<group>"; };
+		8CDF18B11D49E69B0027F018 /* ForgetPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ForgetPasswordViewController.h; path = Login/Controller/ForgetPasswordViewController.h; sourceTree = "<group>"; };
+		8CDF18B21D49E69B0027F018 /* ForgetPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ForgetPasswordViewController.m; path = Login/Controller/ForgetPasswordViewController.m; sourceTree = "<group>"; };
+		8CDF18B31D49E69B0027F018 /* ForgetPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ForgetPasswordViewController.xib; path = Login/Controller/ForgetPasswordViewController.xib; sourceTree = "<group>"; };
 		8CF6A90E1D44EFEF0094E52D /* MyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReportViewController.h; sourceTree = "<group>"; };
 		8CF6A90F1D44EFEF0094E52D /* MyReportViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReportViewController.m; sourceTree = "<group>"; };
 		8CF6A9111D44EFFF0094E52D /* FamilyReportViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FamilyReportViewController.h; sourceTree = "<group>"; };
@@ -303,7 +308,6 @@
 			children = (
 				3DCE0E801D3CA55300473121 /* AuthorizationViewController.h */,
 				3DCE0E811D3CA55300473121 /* AuthorizationViewController.m */,
-				3DCE0E821D3CA55300473121 /* AuthorizationViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -621,6 +625,9 @@
 				8CDBF03F1D45B58A00ED55C1 /* RegisterViewController.h */,
 				8CDBF0401D45B58A00ED55C1 /* RegisterViewController.m */,
 				8CDBF0411D45B58A00ED55C1 /* RegisterViewController.xib */,
+				8CDF18B11D49E69B0027F018 /* ForgetPasswordViewController.h */,
+				8CDF18B21D49E69B0027F018 /* ForgetPasswordViewController.m */,
+				8CDF18B31D49E69B0027F018 /* ForgetPasswordViewController.xib */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -655,6 +662,7 @@
 				8CDBF02E1D45AE3F00ED55C1 /* ChangePasswordViewController.h */,
 				8CDBF02F1D45AE3F00ED55C1 /* ChangePasswordViewController.m */,
 				8CDBF0301D45AE3F00ED55C1 /* ChangePasswordViewController.xib */,
+				8CDF18AF1D49DF170027F018 /* SettingViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -761,7 +769,7 @@
 				TargetAttributes = {
 					3DBA801D1D372E1D00014187 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = L2E9GA3BDN;
+						DevelopmentTeam = VWVVB9QLR9;
 					};
 					3DBA80361D372E1D00014187 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -799,18 +807,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D22F2701D3E03CE00747E02 /* MyRecordTableViewCell.xib in Resources */,
+				8CDF18B51D49E69B0027F018 /* ForgetPasswordViewController.xib in Resources */,
 				8CDBF0431D45B58A00ED55C1 /* RegisterViewController.xib in Resources */,
 				3D9704741D44DD83000BD726 /* HotKnowledgeTableViewCell.xib in Resources */,
 				3D354CF61D3F047A003A1B78 /* FamilyListTableViewCell.xib in Resources */,
 				8CDBF0321D45AE3F00ED55C1 /* ChangePasswordViewController.xib in Resources */,
 				3D9A83FE1D40768B000DD0E2 /* PieChartCell.xib in Resources */,
 				3D9A83F91D4072A2000DD0E2 /* MovementCell.xib in Resources */,
+				8CDF18B01D49DF170027F018 /* SettingViewController.xib in Resources */,
 				3DDF23951D3A01DC00B71EAA /* Assets.xcassets in Resources */,
 				3D22F2751D3E096100747E02 /* FamilyRecordTableViewCell.xib in Resources */,
 				8CDBF03B1D45B56800ED55C1 /* LoginViewController.xib in Resources */,
 				3D354D141D3F5E38003A1B78 /* EfficiencyCell.xib in Resources */,
 				3D354D0C1D3F486E003A1B78 /* DataLabelCell.xib in Resources */,
-				3DCE0E841D3CA55300473121 /* AuthorizationViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -915,6 +924,7 @@
 				3D22F26F1D3E03CE00747E02 /* MyRecordTableViewCell.m in Sources */,
 				3DFE10421D38A98400284C20 /* MonitorViewController.m in Sources */,
 				3D354CF51D3F047A003A1B78 /* FamilyListTableViewCell.m in Sources */,
+				8CDF18B41D49E69B0027F018 /* ForgetPasswordViewController.m in Sources */,
 				3DDF23A31D3A135F00B71EAA /* CustomNavigationController.m in Sources */,
 				3D22F26B1D3DFD3B00747E02 /* Const.m in Sources */,
 				8CDBF02C1D45ADB100ED55C1 /* SettingViewController.m in Sources */,
@@ -1066,12 +1076,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = SmartSleep/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = SmartSleep/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uestc.SmartSleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -1082,12 +1094,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PREFIX_HEADER = SmartSleep/Classes/Others/PrefixHeader.pch;
 				INFOPLIST_FILE = SmartSleep/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.William.SmartSleep;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Uestc.SmartSleep;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

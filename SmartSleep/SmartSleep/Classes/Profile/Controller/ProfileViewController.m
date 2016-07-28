@@ -115,6 +115,7 @@
         [[NSUserDefaults standardUserDefaults] removeObjectForKey:@"PassWordKey"];
         [[NSUserDefaults standardUserDefaults]synchronize];
         LoginViewController *vc = [[LoginViewController alloc]init];
+        [vc setHidesBottomBarWhenPushed:NO];
         [self.navigationController pushViewController:vc animated:YES];
         
         

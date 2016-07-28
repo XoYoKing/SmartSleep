@@ -25,7 +25,12 @@
     // Do any additional setup after loading the view.
     
     [self addChildViewController];
+//    self.navigationController.navigationItem.backBarButtonItem.accessibilityElementsHidden = YES;
     
+}
+
+- (void)viewWillAppear:(BOOL)animated{
+    self.navigationController.navigationBar.hidden = YES;
 }
 
 - (void)didReceiveMemoryWarning {

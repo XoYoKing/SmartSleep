@@ -75,6 +75,7 @@
         button.width = width;
         button.x = i * width;
         [button setTitle:titles[i] forState:UIControlStateNormal];
+        button.titleLabel.font = [UIFont systemFontOfSize:15];
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [button setTitleColor:RGBColor(47, 191, 104) forState:UIControlStateDisabled];
         [button addTarget:self action:@selector(titleClick:) forControlEvents:UIControlEventTouchUpInside];

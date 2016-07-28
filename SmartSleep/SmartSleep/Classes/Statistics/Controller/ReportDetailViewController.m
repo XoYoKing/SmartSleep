@@ -80,6 +80,7 @@
         button.height = height;
         button.width = width;
         button.x = i * width;
+        button.titleLabel.font = [UIFont systemFontOfSize:15];
         [button setTitle:titles[i] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [button setTitleColor:RGBColor(47, 191, 104) forState:UIControlStateDisabled];

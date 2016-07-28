@@ -101,29 +101,10 @@
                             <include reference="DqQ-Ru-Qev"/>
                         </mask>
                     </variation>
+                    <connections>
+                        <action selector="RegisterAction:" destination="-1" eventType="touchUpInside" id="vXr-NH-yv0"/>
+                    </connections>
                 </button>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="忘记密码？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ifq-oi-DPK">
-                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                    <constraints>
-                        <constraint firstAttribute="width" constant="80" id="33P-mu-ZrX"/>
-                        <constraint firstAttribute="height" constant="20" id="IO9-In-TLc"/>
-                    </constraints>
-                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
-                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                    <nil key="highlightedColor"/>
-                    <variation key="default">
-                        <mask key="constraints">
-                            <exclude reference="33P-mu-ZrX"/>
-                            <exclude reference="IO9-In-TLc"/>
-                        </mask>
-                    </variation>
-                    <variation key="heightClass=regular-widthClass=compact">
-                        <mask key="constraints">
-                            <include reference="33P-mu-ZrX"/>
-                            <include reference="IO9-In-TLc"/>
-                        </mask>
-                    </variation>
-                </label>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="还没有账号？" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzb-jG-U13">
                     <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                     <constraints>
@@ -164,6 +145,15 @@
                         </mask>
                     </variation>
                 </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bhU-jA-lRh">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <state key="normal" title="忘记密码？">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="ForgetPasswordAction:" destination="-1" eventType="touchUpInside" id="ijV-Wy-9K9"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
@@ -188,14 +178,12 @@
                 <constraint firstAttribute="trailing" secondItem="bYS-8m-mOa" secondAttribute="trailing" id="bia-Ga-MpQ"/>
                 <constraint firstItem="xzb-jG-U13" firstAttribute="top" secondItem="S1d-X7-ODJ" secondAttribute="bottom" constant="23" id="d5X-do-MJq"/>
                 <constraint firstItem="bYS-8m-mOa" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="fOO-pM-lon"/>
+                <constraint firstItem="bhU-jA-lRh" firstAttribute="top" secondItem="IcK-jv-Dtu" secondAttribute="bottom" constant="24" id="pBv-E7-Nhf"/>
                 <constraint firstItem="dm1-Zh-ke6" firstAttribute="centerX" secondItem="S1d-X7-ODJ" secondAttribute="centerX" id="rS9-wi-XPh"/>
                 <constraint firstItem="IcK-jv-Dtu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="rfH-ZM-f1N">
                     <variation key="heightClass=regular-widthClass=compact" constant="20"/>
                 </constraint>
-                <constraint firstItem="Ifq-oi-DPK" firstAttribute="top" secondItem="IcK-jv-Dtu" secondAttribute="bottom" constant="30" id="vQg-Er-aag"/>
-                <constraint firstItem="Ifq-oi-DPK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="zwb-dZ-R7c">
-                    <variation key="heightClass=regular-widthClass=compact" constant="20"/>
-                </constraint>
+                <constraint firstItem="bhU-jA-lRh" firstAttribute="leading" secondItem="IcK-jv-Dtu" secondAttribute="leading" id="vjt-GN-VOB"/>
             </constraints>
             <variation key="default">
                 <mask key="subviews">
@@ -203,9 +191,9 @@
                     <exclude reference="mOH-8u-3fv"/>
                     <exclude reference="S1d-X7-ODJ"/>
                     <exclude reference="dm1-Zh-ke6"/>
-                    <exclude reference="Ifq-oi-DPK"/>
                     <exclude reference="xzb-jG-U13"/>
                     <exclude reference="IcK-jv-Dtu"/>
+                    <exclude reference="bhU-jA-lRh"/>
                 </mask>
                 <mask key="constraints">
                     <exclude reference="Jpn-MX-ACa"/>
@@ -217,8 +205,8 @@
                     <exclude reference="5cC-gl-Vh9"/>
                     <exclude reference="QUf-sx-car"/>
                     <exclude reference="rfH-ZM-f1N"/>
-                    <exclude reference="vQg-Er-aag"/>
-                    <exclude reference="zwb-dZ-R7c"/>
+                    <exclude reference="pBv-E7-Nhf"/>
+                    <exclude reference="vjt-GN-VOB"/>
                     <exclude reference="UVh-ki-Whd"/>
                     <exclude reference="WbZ-Cs-MIV"/>
                     <exclude reference="8oX-cw-7Z9"/>
@@ -233,9 +221,9 @@
                     <include reference="mOH-8u-3fv"/>
                     <include reference="S1d-X7-ODJ"/>
                     <include reference="dm1-Zh-ke6"/>
-                    <include reference="Ifq-oi-DPK"/>
                     <include reference="xzb-jG-U13"/>
                     <include reference="IcK-jv-Dtu"/>
+                    <include reference="bhU-jA-lRh"/>
                 </mask>
                 <mask key="constraints">
                     <include reference="Jpn-MX-ACa"/>
@@ -247,8 +235,8 @@
                     <include reference="5cC-gl-Vh9"/>
                     <include reference="QUf-sx-car"/>
                     <include reference="rfH-ZM-f1N"/>
-                    <include reference="vQg-Er-aag"/>
-                    <include reference="zwb-dZ-R7c"/>
+                    <include reference="pBv-E7-Nhf"/>
+                    <include reference="vjt-GN-VOB"/>
                     <include reference="UVh-ki-Whd"/>
                     <include reference="WbZ-Cs-MIV"/>
                     <include reference="8oX-cw-7Z9"/>
